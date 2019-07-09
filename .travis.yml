@@ -5,3 +5,14 @@ r:
   - oldrel
   - release
   - devel
+notifications:
+  email:
+    recipients:
+      - hobichhai@gmail.com
+    on_success: change
+    on_failure: change
+git:
+  depth: false
+branches:
+  only:
+    - master
